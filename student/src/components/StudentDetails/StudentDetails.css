@@ -1,0 +1,56 @@
+.marks-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+.stu-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    background-color: #fff;
+    width: calc(33% - 40px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+
+.student-details p {
+    margin: 5px 0;
+}
+
+.marks-details p {
+    margin: 5px 0;
+}
+
+.marks-action {
+    margin-top: 10px;
+}
+
+.marks-action button,
+.stu-card button {
+    background-color: rgb(122, 145, 223);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.marks-action button:hover {
+    background-color: rgb(100, 120, 200);
+}
+
+.stu-card button:hover {
+    background-color: rgb(100, 120, 200);
+}

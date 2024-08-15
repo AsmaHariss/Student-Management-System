@@ -1,0 +1,74 @@
+.allMarks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.allMarks-left {
+    width: 100%;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.multi-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.multi-fields div {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 30%;
+    max-width: 300px;
+}
+
+.multi-fields label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.multi-fields input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.multi-fields input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.update-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(122, 145, 223);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.update-button:hover {
+    background-color: rgb(100, 120, 200);
+}

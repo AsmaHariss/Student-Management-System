@@ -1,0 +1,49 @@
+.stu-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    background-color: #fff;
+    width: calc(33% - 40px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin-bottom: 20px;
+}
+.student-details p,
+.marks-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.marks-details {
+    margin-top: 10px;
+}
+
+.marks-action {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.marks-action button {
+    background-color: rgb(122, 145, 223);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    flex: 1;
+}
+
+.marks-action button:first-of-type {
+    margin-right: 10px;
+}
+
+
+button a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}

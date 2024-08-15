@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: Outfit;
+}
+
+.register {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: grid;
+}
+
+.register-container {
+    place-self: center;
+    width: max(23vw, 330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 15px;
+    animation: fadeIn 0.5s;
+}
+
+.register-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.register-container input {
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.register-container button {
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(122, 145, 223);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.register-container p a span {
+    color: rgb(122, 145, 223);
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.register-container a {
+    text-decoration: none;
+}
+
+.register-container button:hover {
+    background-color: rgb(100, 120, 200);
+}
